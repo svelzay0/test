@@ -1,0 +1,86 @@
+.el-checkbox__label {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer !important;
+  color: $main-gray;
+  margin-bottom: 8px;
+}
+.el-input__inner {
+  border: none;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 0;
+  border-bottom: 1px solid $main-gray;
+  padding-left: 8px !important;
+}
+.el-input__prefix {
+  display: none !important;
+}
+.el-radio {
+  margin-bottom: 8px !important;
+}
+.el-radio__label {
+  margin-right: 16px !important;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer !important;
+  color: $main-gray;
+  margin-bottom: 8px;
+}
+.el-dialog__body {
+  min-width: 300px !important;
+}
+.el-dialog__header {
+  min-width: 300px !important;
+}
+.el-dialog__footer {
+  min-width: 300px !important;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label {
+  color: $main-black !important;
+}
+.el-radio__input.is-checked+.el-radio__label {
+  color: $main-black !important;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background: inherit;
+}
+.el-checkbox__inner {
+
+}
+.el-checkbox__inner::after {
+  border: 2px solid $main-black;
+  border-left: 0;
+  border-top: 0;
+  width: 4px;
+  height: 11px;
+  top: -3px;
+  left: 6px;
+}
+.el-radio__inner::after {
+  width: 7px;
+  height: 7px;
+}
+.el-dialog__title {
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+.el-dialog {
+  border: none;
+  box-shadow: none;
+  background: #ffffff;
+  margin-top: 35vh !important;
+}
+.el-dialog__wrapper {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+.form__clear {
+  display: block;
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  margin-top: 8px;
+  background: url("~@/assets/location_clear.svg") no-repeat;
+}
